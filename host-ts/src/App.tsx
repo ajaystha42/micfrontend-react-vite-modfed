@@ -1,4 +1,5 @@
 import Header from "remoteApp/Header";
+import Footer from "remoteApp/Footer";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <div className="my-10">
         <p>Host Content</p>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

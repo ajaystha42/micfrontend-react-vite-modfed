@@ -10,7 +10,8 @@ export default defineConfig({
       name: "remote",
       filename: "remoteEntry.js",
       exposes: {
-        "./Header": "./src/Header",
+        "./Header": "./src/components/Header/Header",
+        "./Footer": "./src/components/Footer/Footer",
       },
       shared: ["react", "react-dom"],
     }),
