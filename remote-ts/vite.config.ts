@@ -11,7 +11,8 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./Header": "./src/components/Header/Header",
-        "./Footer": "./src/components/Footer/Footer",
+        "./Footer": "./src/components/Footer/Footer.tsx",
+        "./products": "./src/services/ProductsService.ts",
       },
       shared: ["react", "react-dom"],
     }),
